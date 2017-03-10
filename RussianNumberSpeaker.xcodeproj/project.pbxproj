@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E729D2491E72AE800059F771 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E729D2481E72AE800059F771 /* AppDelegate.swift */; };
+		E729D24B1E72AE800059F771 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E729D24A1E72AE800059F771 /* ViewController.swift */; };
+		E729D24D1E72AE800059F771 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E729D24C1E72AE800059F771 /* Assets.xcassets */; };
+		E729D2501E72AE800059F771 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E729D24E1E72AE800059F771 /* Main.storyboard */; };
+		E729D25B1E72AE800059F771 /* RussianNumberSpeakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E729D25A1E72AE800059F771 /* RussianNumberSpeakerTests.swift */; };
+		E729D2661E72AE800059F771 /* RussianNumberSpeakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E729D2651E72AE800059F771 /* RussianNumberSpeakerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E729D2571E72AE800059F771 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E729D23D1E72AE7F0059F771 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E729D2441E72AE7F0059F771;
+			remoteInfo = RussianNumberSpeaker;
+		};
+		E729D2621E72AE800059F771 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E729D23D1E72AE7F0059F771 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E729D2441E72AE7F0059F771;
+			remoteInfo = RussianNumberSpeaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E729D2451E72AE800059F771 /* RussianNumberSpeaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RussianNumberSpeaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E729D2481E72AE800059F771 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E729D24A1E72AE800059F771 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E729D24C1E72AE800059F771 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E729D24F1E72AE800059F771 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E729D2511E72AE800059F771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E729D2561E72AE800059F771 /* RussianNumberSpeakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RussianNumberSpeakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E729D25A1E72AE800059F771 /* RussianNumberSpeakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RussianNumberSpeakerTests.swift; sourceTree = "<group>"; };
+		E729D25C1E72AE800059F771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E729D2611E72AE800059F771 /* RussianNumberSpeakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RussianNumberSpeakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E729D2651E72AE800059F771 /* RussianNumberSpeakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RussianNumberSpeakerUITests.swift; sourceTree = "<group>"; };
+		E729D2671E72AE800059F771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E729D2421E72AE7F0059F771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E729D2531E72AE800059F771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E729D25E1E72AE800059F771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E729D23C1E72AE7F0059F771 = {
+			isa = PBXGroup;
+			children = (
+				E729D2471E72AE800059F771 /* RussianNumberSpeaker */,
+				E729D2591E72AE800059F771 /* RussianNumberSpeakerTests */,
+				E729D2641E72AE800059F771 /* RussianNumberSpeakerUITests */,
+				E729D2461E72AE800059F771 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E729D2461E72AE800059F771 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E729D2451E72AE800059F771 /* RussianNumberSpeaker.app */,
+				E729D2561E72AE800059F771 /* RussianNumberSpeakerTests.xctest */,
+				E729D2611E72AE800059F771 /* RussianNumberSpeakerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E729D2471E72AE800059F771 /* RussianNumberSpeaker */ = {
+			isa = PBXGroup;
+			children = (
+				E729D2481E72AE800059F771 /* AppDelegate.swift */,
+				E729D24A1E72AE800059F771 /* ViewController.swift */,
+				E729D24C1E72AE800059F771 /* Assets.xcassets */,
+				E729D24E1E72AE800059F771 /* Main.storyboard */,
+				E729D2511E72AE800059F771 /* Info.plist */,
+			);
+			path = RussianNumberSpeaker;
+			sourceTree = "<group>";
+		};
+		E729D2591E72AE800059F771 /* RussianNumberSpeakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E729D25A1E72AE800059F771 /* RussianNumberSpeakerTests.swift */,
+				E729D25C1E72AE800059F771 /* Info.plist */,
+			);
+			path = RussianNumberSpeakerTests;
+			sourceTree = "<group>";
+		};
+		E729D2641E72AE800059F771 /* RussianNumberSpeakerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E729D2651E72AE800059F771 /* RussianNumberSpeakerUITests.swift */,
+				E729D2671E72AE800059F771 /* Info.plist */,
+			);
+			path = RussianNumberSpeakerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E729D2441E72AE7F0059F771 /* RussianNumberSpeaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E729D26A1E72AE800059F771 /* Build configuration list for PBXNativeTarget "RussianNumberSpeaker" */;
+			buildPhases = (
+				E729D2411E72AE7F0059F771 /* Sources */,
+				E729D2421E72AE7F0059F771 /* Frameworks */,
+				E729D2431E72AE7F0059F771 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RussianNumberSpeaker;
+			productName = RussianNumberSpeaker;
+			productReference = E729D2451E72AE800059F771 /* RussianNumberSpeaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E729D2551E72AE800059F771 /* RussianNumberSpeakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E729D26D1E72AE800059F771 /* Build configuration list for PBXNativeTarget "RussianNumberSpeakerTests" */;
+			buildPhases = (
+				E729D2521E72AE800059F771 /* Sources */,
+				E729D2531E72AE800059F771 /* Frameworks */,
+				E729D2541E72AE800059F771 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E729D2581E72AE800059F771 /* PBXTargetDependency */,
+			);
+			name = RussianNumberSpeakerTests;
+			productName = RussianNumberSpeakerTests;
+			productReference = E729D2561E72AE800059F771 /* RussianNumberSpeakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E729D2601E72AE800059F771 /* RussianNumberSpeakerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E729D2701E72AE800059F771 /* Build configuration list for PBXNativeTarget "RussianNumberSpeakerUITests" */;
+			buildPhases = (
+				E729D25D1E72AE800059F771 /* Sources */,
+				E729D25E1E72AE800059F771 /* Frameworks */,
+				E729D25F1E72AE800059F771 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E729D2631E72AE800059F771 /* PBXTargetDependency */,
+			);
+			name = RussianNumberSpeakerUITests;
+			productName = RussianNumberSpeakerUITests;
+			productReference = E729D2611E72AE800059F771 /* RussianNumberSpeakerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E729D23D1E72AE7F0059F771 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Ojisan Seiuchi";
+				TargetAttributes = {
+					E729D2441E72AE7F0059F771 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					E729D2551E72AE800059F771 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E729D2441E72AE7F0059F771;
+					};
+					E729D2601E72AE800059F771 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E729D2441E72AE7F0059F771;
+					};
+				};
+			};
+			buildConfigurationList = E729D2401E72AE7F0059F771 /* Build configuration list for PBXProject "RussianNumberSpeaker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E729D23C1E72AE7F0059F771;
+			productRefGroup = E729D2461E72AE800059F771 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E729D2441E72AE7F0059F771 /* RussianNumberSpeaker */,
+				E729D2551E72AE800059F771 /* RussianNumberSpeakerTests */,
+				E729D2601E72AE800059F771 /* RussianNumberSpeakerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E729D2431E72AE7F0059F771 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E729D24D1E72AE800059F771 /* Assets.xcassets in Resources */,
+				E729D2501E72AE800059F771 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E729D2541E72AE800059F771 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E729D25F1E72AE800059F771 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E729D2411E72AE7F0059F771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E729D24B1E72AE800059F771 /* ViewController.swift in Sources */,
+				E729D2491E72AE800059F771 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E729D2521E72AE800059F771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E729D25B1E72AE800059F771 /* RussianNumberSpeakerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E729D25D1E72AE800059F771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E729D2661E72AE800059F771 /* RussianNumberSpeakerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E729D2581E72AE800059F771 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E729D2441E72AE7F0059F771 /* RussianNumberSpeaker */;
+			targetProxy = E729D2571E72AE800059F771 /* PBXContainerItemProxy */;
+		};
+		E729D2631E72AE800059F771 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E729D2441E72AE7F0059F771 /* RussianNumberSpeaker */;
+			targetProxy = E729D2621E72AE800059F771 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E729D24E1E72AE800059F771 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E729D24F1E72AE800059F771 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E729D2681E72AE800059F771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E729D2691E72AE800059F771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		E729D26B1E72AE800059F771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RussianNumberSpeaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ojisanseiuchi.RussianNumberSpeaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E729D26C1E72AE800059F771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RussianNumberSpeaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ojisanseiuchi.RussianNumberSpeaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E729D26E1E72AE800059F771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RussianNumberSpeakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ojisanseiuchi.RussianNumberSpeakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RussianNumberSpeaker.app/Contents/MacOS/RussianNumberSpeaker";
+			};
+			name = Debug;
+		};
+		E729D26F1E72AE800059F771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RussianNumberSpeakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ojisanseiuchi.RussianNumberSpeakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RussianNumberSpeaker.app/Contents/MacOS/RussianNumberSpeaker";
+			};
+			name = Release;
+		};
+		E729D2711E72AE800059F771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RussianNumberSpeakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ojisanseiuchi.RussianNumberSpeakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RussianNumberSpeaker;
+			};
+			name = Debug;
+		};
+		E729D2721E72AE800059F771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RussianNumberSpeakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ojisanseiuchi.RussianNumberSpeakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RussianNumberSpeaker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E729D2401E72AE7F0059F771 /* Build configuration list for PBXProject "RussianNumberSpeaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E729D2681E72AE800059F771 /* Debug */,
+				E729D2691E72AE800059F771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E729D26A1E72AE800059F771 /* Build configuration list for PBXNativeTarget "RussianNumberSpeaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E729D26B1E72AE800059F771 /* Debug */,
+				E729D26C1E72AE800059F771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E729D26D1E72AE800059F771 /* Build configuration list for PBXNativeTarget "RussianNumberSpeakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E729D26E1E72AE800059F771 /* Debug */,
+				E729D26F1E72AE800059F771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E729D2701E72AE800059F771 /* Build configuration list for PBXNativeTarget "RussianNumberSpeakerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E729D2711E72AE800059F771 /* Debug */,
+				E729D2721E72AE800059F771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E729D23D1E72AE7F0059F771 /* Project object */;
+}
