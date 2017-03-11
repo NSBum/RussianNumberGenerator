@@ -13,6 +13,9 @@
 		E729D2501E72AE800059F771 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E729D24E1E72AE800059F771 /* Main.storyboard */; };
 		E729D25B1E72AE800059F771 /* RussianNumberSpeakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E729D25A1E72AE800059F771 /* RussianNumberSpeakerTests.swift */; };
 		E729D2661E72AE800059F771 /* RussianNumberSpeakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E729D2651E72AE800059F771 /* RussianNumberSpeakerUITests.swift */; };
+		E76A1DAC1E74129B0012BDCD /* Talker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76A1DAB1E74129B0012BDCD /* Talker.swift */; };
+		E76A1DAE1E741AB70012BDCD /* Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76A1DAD1E741AB70012BDCD /* Generator.swift */; };
+		E76A1DB01E741F670012BDCD /* AudioConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76A1DAF1E741F670012BDCD /* AudioConversion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		E729D2611E72AE800059F771 /* RussianNumberSpeakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RussianNumberSpeakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E729D2651E72AE800059F771 /* RussianNumberSpeakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RussianNumberSpeakerUITests.swift; sourceTree = "<group>"; };
 		E729D2671E72AE800059F771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E76A1DAB1E74129B0012BDCD /* Talker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Talker.swift; sourceTree = "<group>"; };
+		E76A1DAD1E741AB70012BDCD /* Generator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Generator.swift; sourceTree = "<group>"; };
+		E76A1DAF1E741F670012BDCD /* AudioConversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioConversion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				E729D24C1E72AE800059F771 /* Assets.xcassets */,
 				E729D24E1E72AE800059F771 /* Main.storyboard */,
 				E729D2511E72AE800059F771 /* Info.plist */,
+				E76A1DAB1E74129B0012BDCD /* Talker.swift */,
+				E76A1DAD1E741AB70012BDCD /* Generator.swift */,
+				E76A1DAF1E741F670012BDCD /* AudioConversion.swift */,
 			);
 			path = RussianNumberSpeaker;
 			sourceTree = "<group>";
@@ -256,7 +265,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E729D24B1E72AE800059F771 /* ViewController.swift in Sources */,
+				E76A1DAE1E741AB70012BDCD /* Generator.swift in Sources */,
 				E729D2491E72AE800059F771 /* AppDelegate.swift in Sources */,
+				E76A1DB01E741F670012BDCD /* AudioConversion.swift in Sources */,
+				E76A1DAC1E74129B0012BDCD /* Talker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +508,7 @@
 				E729D26C1E72AE800059F771 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E729D26D1E72AE800059F771 /* Build configuration list for PBXNativeTarget "RussianNumberSpeakerTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +517,7 @@
 				E729D26F1E72AE800059F771 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E729D2701E72AE800059F771 /* Build configuration list for PBXNativeTarget "RussianNumberSpeakerUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +526,7 @@
 				E729D2721E72AE800059F771 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
