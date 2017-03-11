@@ -40,6 +40,12 @@ class ViewController: NSViewController, GeneratorDelegate {
             warnNoLocation()
             progressIndicator?.startAnimation(self)
         }
+        else {
+            let sequenceGenerator = Generator(start: beginNumber, stop: endNumber, theMode: .sequential, savingTo: saveLocation!)
+            sequenceGenerator.step = step
+            sequenceGenerator.delegate = self
+            sequenceGenerator.generate()
+        }
     }
     
     @IBAction func generateRandomButtonPressed(button:NSButton) {
