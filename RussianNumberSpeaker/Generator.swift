@@ -35,9 +35,15 @@ class Generator {
             }
         }
         else if useMode == .random {
-            while count! > 0 {
-                talker.sayNumber(n: randomNumber(min: begin!, max: end!), saveURL: location!)
-                count! -= 1
+            //  keep track of numbers we've already generated
+            var generated = [Int]()
+            while count! > 1 {
+                let n = randomNumber(min: begin!, max: end!)
+                while( !generated.contains(n) ) {
+                    generated.append(n)
+                    talker.sayNumber(n: n, saveURL: location!)
+                    count! -= 1
+                }
             }
         }
         if( self.delegate != nil ) {
